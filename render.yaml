@@ -1,14 +1,5 @@
 services:
   - type: web
-    name: telegram-dependency-bot  # Измени на название своего бота, если хочешь
-    runtime: python3.9
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
-    envVars:
-      - key: BOT_TOKEN
-        value: 8168137943:AAH4lNO2j8x3gcMw0al58Rk2tmv6JpQR_l4
-Use this token to access the HTTP API:
-8168137943:AAH4lNO2j8x3gcMw0al58Rk2tmv6JpQR_l4
-Keep your token secure and store it safely, it can be used by anyone to control your bot.
-
-For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+    name: telegram-dependency-bot
+    runtime: docker
+    dockerfilePath: Dockerfile
