@@ -6,8 +6,7 @@ services:
     startCommand: python bot.py
     envVars:
       - key: BOT_TOKEN
-        value: YOUR_BOT_TOKEN  # Done! Congratulations on your new bot. You will find it at t.me/Checklist_helper_voshod_bot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
-
+        value: 8168137943:AAH4lNO2j8x3gcMw0al58Rk2tmv6JpQR_l4
 Use this token to access the HTTP API:
 8168137943:AAH4lNO2j8x3gcMw0al58Rk2tmv6JpQR_l4
 Keep your token secure and store it safely, it can be used by anyone to control your bot.
